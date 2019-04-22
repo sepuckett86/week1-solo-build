@@ -1,10 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Cute+Font');
 
+body {
+    text-align: center;
+}
+
 h1, h2 {
     font-family: 'Cute Font', cursive;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 p, li {
     font-family: 'Advent Pro', sans-serif;
 }
 
+li {
+    text-align: left;
+}
+
+ol {
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    height: 300px;
+    border: solid 2px black;
+}
