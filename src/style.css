@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Cute+Font');
+
+h1, h2 {
+    font-family: 'Cute Font', cursive;
+}
+
+p, li {
+    font-family: 'Advent Pro', sans-serif;
+}
+
