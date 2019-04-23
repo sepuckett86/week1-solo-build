@@ -3,7 +3,7 @@
 body {
     text-align: center;
     background-color: #DDF5F7;
-    padding: 25px;
+    padding: 0px 25px 10px 25px;
 }
 
 h1, h2 {
@@ -44,7 +44,7 @@ img {
 }
 
 #Intro {
-    background-color: #8C9ED0; 
+    background-color: #FFE1A1; 
 }
 
 #PartOne {
