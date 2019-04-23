@@ -43,12 +43,34 @@ img {
     border: solid 2px black;
 }
 
+label {
+    display: block;
+    margin: 10px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.2em;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 3px;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 5px dashed pink;
+}
+
+#Quiz {
+    background-color: #A3AECD;
+}
+
 #Intro {
     background-color: #FFE1A1; 
 }
 
 #PartOne {
-   background-color: #8C9ED0; 
+    background-color: #8C9ED0; 
 }
 
 #PartTwo {
