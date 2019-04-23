@@ -61,6 +61,17 @@ input {
     border: 5px dashed pink;
 }
 
+button {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.button-div {
+    padding: 20px;
+}
+
 #Quiz {
     background-color: #A3AECD;
 }
