@@ -76,6 +76,10 @@ button {
     background-color: #A3AECD;
 }
 
+#Results {
+    font-size: 1.2em;
+}
+
 #Intro {
     background-color: #FFE1A1; 
 }
