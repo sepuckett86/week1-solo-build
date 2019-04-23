@@ -2,6 +2,8 @@
 
 body {
     text-align: center;
+    background-color: #DDF5F7;
+    padding: 25px;
 }
 
 h1, h2 {
@@ -20,16 +22,39 @@ p, li {
     font-family: 'Advent Pro', sans-serif;
 }
 
-li {
-    text-align: left;
+p {
+    padding-bottom: 20px;
 }
 
-ol {
+li {
     text-align: center;
-    margin: auto;
+    list-style: none;
+    font-size: 30px;
+}
+
+ul {
+    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 25px;
 }
 
 img {
     height: 300px;
     border: solid 2px black;
+}
+
+#Intro {
+    background-color: #8C9ED0; 
+}
+
+#PartOne {
+   background-color: #8C9ED0; 
+}
+
+#PartTwo {
+    background-color: #7FC1C7; 
+}
+
+#PartThree {
+    background-color: #FFCDA1; 
 }
