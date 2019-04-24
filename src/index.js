@@ -1,3 +1,5 @@
+import scoreAnswers from './scoreAnswers.js';
+
 const input1 = document.getElementById('Question1');
 const input2 = document.getElementById('Question2');
 const input3 = document.getElementById('Question3'); 
