@@ -17,3 +17,17 @@ test('return 5 if all answers are correct', (assert) => {
     // Assert
     assert.equal(actual, expected);
 });
+
+test('return 0 if all answers are incorrect', (assert) => {
+    // Arrange
+    const answer1 = 'rat';
+    const answer2 = 'meerkat';
+    const answer3 = 'fish';
+    const answer4 = 'monkey';
+    const answer5 = 1;
+    const expected = 0;
+    // Act
+    const actual = scoreAnswers();
+    // Assert
+    assert.equal(actual, expected);
+});
