@@ -16,6 +16,7 @@ button.addEventListener('click', (event) => {
     const answer5 = input5.value;
 
     const score = scoreAnswers(answer1, answer2, answer3, answer4, answer5);
+    const percentageRight = parseInt(score)/5 * 100;
+    resultP.innerHTML = 'Your score is ' + score + '/5! That is ' + percentageRight + '% correct!';
 
-    resultP.innerHTML = "Your score is " + score + "/5!";
 });
