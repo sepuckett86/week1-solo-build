@@ -7,5 +7,10 @@ const button = document.getElementById('submit-button');
 const resultP = document.getElementById('Results');
 
 button.addEventListener('click', (event) => {
-    console.log('click!');
+    const answer1 = input1.value;
+    const answer2 = input2.value;
+    const answer3 = input3.value;
+    const answer4 = input4.value;
+    const answer5 = input5.value;
+    console.log(answer1, answer2, answer3, answer4, answer5);
 });
