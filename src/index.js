@@ -14,5 +14,7 @@ button.addEventListener('click', (event) => {
     const answer3 = input3.value;
     const answer4 = input4.value;
     const answer5 = input5.value;
-    console.log(answer1, answer2, answer3, answer4, answer5);
+
+    const score = scoreAnswers(answer1, answer2, answer3, answer4, answer5);
+    console.log(score);
 });

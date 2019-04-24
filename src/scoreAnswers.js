@@ -12,7 +12,7 @@ function scoreAnswers(answer1, answer2, answer3, answer4, answer5) {
     if(answer4.trim().toLowerCase() === 'manatee') {
         total += 1;
     }
-    if(answer5 === 3) {
+    if(answer5.trim().toLowerCase() === '3') {
         total += 1;
     }
     return total;
